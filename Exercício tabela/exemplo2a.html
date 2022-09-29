@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Exercícios com tabelas</title>
+        <style>
+            body{
+                margin: 20px;
+            }
+            td{
+                border: 1px solid black;
+                padding: 2px;
+            }
+            table{
+                border: 1px solid black;;
+            }
+            .negrito{
+                font-weight: 800;
+            }
+            .center{
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            <header>
+                <h1>Exercício imitando tabelas</h1>
+            </header>
+            <section>
+                <h2>Primeiro exercício</h2>
+                <table>
+                    <tr class="negrito">
+                        <td colspan="2">Linha 1, coluna 1</td>
+                        <td colspan="2">Linha 1, coluna 2</td>
+                    </tr>
+                    <tr><td colspan="4">Linha 2</td></tr>
+                    <tr>
+                        <td rowspan="2">Linha 3</td>
+                        <td>Linha 3</td>
+                        <td>Linha 3</td>
+                        <td rowspan="2">Linha 3</td>
+                    </tr>
+                    <tr><td colspan="2">Linha 4</td></tr>
+                </table>
+            </section>
+            <section>
+                <h2>Segundo exercício</h2>
+                <table class="center">
+                    <tr class="negrito">
+                        <td colspan="2">Colunas 1 e 2</td>
+                    </tr>
+                    <tr>
+                        <td>Linha 1, coluna 2</td>
+                        <td>Linha 1, coluna 1</td>
+                    </tr>
+                    <tr>
+                        <td>Linha 2, coluna 1</td>
+                        <td>Linha 2, coluna 2</td>
+                    </tr>
+                    <tr>
+                        <td class="negrito" rowspan="3">Linha 3</td>
+                        <td>Linha 3, coluna 2</td>
+                    </tr>
+                    <tr>
+                        <td> Linha 4, coluna 2</td>
+                    </tr>
+                    <tr>
+                        <td>Linha 5, coluna 2</td>
+                    </tr>
+                </table>
+            </section>
+            <section>
+                <h2>Terceiro exercício</h2>
+                <table>
+                    <tr>
+                        <td>Célula 1</td>
+                        <td rowspan="2">Célula 2</td>
+                        <td>Célula 3</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">Célula 4</td>
+                        <td>Célula 5</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Célula 6</td>
+                    </tr>
+                </table>
+            </section>
+            <section>
+                <h2>Quarto exercício</h2>
+                <table>
+                    <tr>
+                        <td></td>
+                        <td colspan="2" class="negrito center">Latão</td>
+                        <td colspan="2" class="negrito center">Aço</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td class="negrito">Parafusos</td>
+                        <td class="negrito">Porcas</td>
+                        <td class="negrito">Parafusos</td>
+                        <td class="negrito">Porcas</td>
+                    </tr>
+                    <tr>
+                        <td colspan="5" class="negrito center">10cm</td>
+                    </tr>
+                    <tr>
+                        <td class="negrito center">Atacado</td>
+                        <td>1,00</td>
+                        <td>1,25</td>
+                        <td>1,20</td>
+                        <td>1,00</td>
+                    </tr>
+                    <tr>
+                        <td class="negrito center">Varejo</td>
+                        <td>2,00</td>
+                        <td>3,25</td>
+                        <td>1,80</td>
+                        <td>1,60</td>
+                    </tr>
+                    <tr>
+                        <td colspan="5" class="negrito center">20cm</td>
+                    </tr>
+                    <tr>
+                        <td class="negrito center">Atacado</td>
+                        <td>1,20</td>
+                        <td>1,30</td>
+                        <td>1,00</td>
+                        <td>0,80</td>
+                    </tr>
+                    <tr>
+                        <td class="negrito center">Varejo</td>
+                        <td>1,60</td>
+                        <td>1,30</td>
+                        <td>1,00</td>
+                        <td>1,50</td>
+                    </tr>
+                </table>
+            </section>
+            
+        </main>
+        
+    </body>
+</html>
