@@ -1,0 +1,50 @@
+Exercício de Modelos de Herança, Cascata e Layout
+Especificiadade
+
+1) body #main .post ul li:last-child
+R-0,1,2,3
+
+2)h1#top:first-child + p[rel=up]:first-line
+R-0,1,3,2
+
+3)#emperor[style] div:first-line
+R-1,1,1,1
+
+4)body #darkside .sith p
+R-0,1,1,2
+
+5)#emperor:visited div:first-letter
+R-0,1,2,1
+
+6)h1 + #trooper[class]
+R-0,1,1,1
+
+7)div > p.sith
+R-0,0,1,2
+
+8)#emperor div:first-letter:first-line
+R-0,1,2,1
+
+9)ul ol+li
+R-0,0,0,3
+
+10)ul #nav li.active a
+R-0,1,1,3
+
+11)body .ie7 .col_3 h2 + h2
+R-0,0,2,3
+
+12)ul > li ul li ol li:first-letter
+R-0,0,1,6
+
+13)#abc[class]:focus
+R-0,1,1,0
+
+14)html .wsc #vader:first-line
+R-0,1,2,1
+
+15)#x34y ul ol li.red[rel=up]:first-line
+R-0,1,3,3
+
+16)tr > td + td:last-child
+R-0,0,1,3
