@@ -1,0 +1,39 @@
+body{
+	background-color: rgb(200, 200, 200);
+}
+p{
+	color: blue;
+}
+p>em{
+	color: green;
+}
+em:lang(en-US){
+	color: yellow !important;
+}
+p>strong{
+	color: red;
+}
+a:link{
+	color: darkorange;
+}
+a:visited{
+	color: rgb(50,50,50);
+}
+ol+p{
+	color: brown;
+}
+ol>li>abbr{
+	text-decoration: underline dashed;
+}
+h1{
+	font-size: 1.1em;
+}
+ol>li:first-child>abbr{
+	font-weight: 900;
+}
+ol>li>a:hover{
+	text-decoration: line-through;
+}
+ol>li:first-child>a:hover{
+	text-decoration: underline !important;
+}
