@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <title>CSS: Posicionamento</title>
+        <style>
+            div > div {
+                width: 300px;
+                height: 300px;
+                float: left;
+            }
+            #outer {
+                width: 600px;
+                height: 600px;
+                margin: 0 auto;
+            }
+            #rect1 {
+                background-color: red;
+                position: relative;
+                top: 50px;
+                right: 50px; 
+            }
+            #rect2 {
+                background-color: blue;
+                position: sticky; top: 0;
+            }
+            #rect3 {
+                background-color: green;
+                float: right;
+            }
+            #rect4 {
+                background-color: yellow;
+                position: fixed;
+                top: 100px;
+                right: 100px;
+            }
+            body{
+                height: 1200px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="outer">
+            <div id="rect1"></div>
+            <div id="rect2"></div>
+            <div id="rect3"></div>
+            <div id="rect4"></div>
+        </div>
+
+        <a href="index.html">voltar</a>
+    </body>
+</html>
